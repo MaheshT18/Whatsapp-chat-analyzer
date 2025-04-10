@@ -1,0 +1,12 @@
+streamlit
+pandas
+matplotlib
+seaborn
+networkx
+reportlab
+urlextract
+wordcloud
+textblob
+gensim
+nltk
+numpy
