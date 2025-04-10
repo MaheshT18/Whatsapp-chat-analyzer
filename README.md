@@ -45,7 +45,7 @@ Make sure you have the following installed:
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/MaheshT18/WhatsApp-Chat-Analyzer.git
+    git clone [https://github.com/MaheshT18/WhatsApp-chat-analyzer.git]
     cd WhatsApp-Chat-Analyzer
     ```
 
@@ -94,7 +94,9 @@ If you'd like to help improve the project, feel free to fork the repository and 
 
 ## 🎬 Project Demo Video
 
-Watch the working demo of **WhatsApp Chat Analyzer** in action!  
+Watch the working demo of **WhatsApp Chat Analyzer** in action! 
+
+https://github.com/user-attachments/assets/8ff2336b-be20-4992-aa02-352425de53f3
 
 
 ---
