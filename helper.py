@@ -11,9 +11,11 @@ from nltk.corpus import stopwords
 import nltk
 import numpy as np
 
-
-# Ensure NLTK stopwords are downloaded (run this externally if needed)
-# nltk.download('stopwords')
+# Ensure NLTK stopwords are downloaded.
+try:
+    stopwords.words('english')
+except LookupError:
+    nltk.download('stopwords')
 
 # Initialize URL extractor
 extract = URLExtract()
@@ -253,7 +255,7 @@ def topic_modeling(selected_user, df, num_topics=3, num_words=5):
     if not documents:
         return "Not enough data for topic modeling."
     
-    # Basic tokenization and stopword removal
+    # Basic tokenization and stopword removal using NLTK stopwords
     stops = set(stopwords.words('english'))
     texts = []
     for doc in documents:
