@@ -10,3 +10,4 @@ textblob
 gensim
 nltk
 numpy
+emoji
